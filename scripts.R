@@ -1,4 +1,4 @@
-lindh_sample = read.csv("downloads/lindh.csv");
+lindh_sample = read.csv("lindh.csv");
 lindh_sample$has_design = as.logical(lindh_sample$is_treatment);
 
 lindh_sample$continuous_integration = as.logical(lindh_sample$continuous_integration);
